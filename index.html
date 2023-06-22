@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <script src="main.js" defer></script>
+
     <header>
       <center>
         <h1>agecac</h1>
@@ -18,8 +20,8 @@
     <div class="container">
       <div class="container__screen"></div>
 
-      <div class="container__main">
-        <h1>From:</h1>
+      <form>
+        <h1>Date of birth:</h1>
         <div class="container__date-input">
           <section>
             <label for="container-input__birth-day">Day</label>
@@ -37,26 +39,26 @@
           </section>
         </div>
 
-        <h1>To:</h1>
+        <h1>Age on this date:</h1>
         <div class="container__date-input">
           <section>
-            <label for="container-input__end-day">Day</label>
-            <input id="container-input__end-day" type="number" placeholder="DD" min="0" max="31" required>
+            <label for="container-input__given-date-day">Day</label>
+            <input id="container-input__given-date-day" type="number" placeholder="DD" min="0" max="31" required>
           </section>
 
           <section>
-            <label for="container-input__end-month">Month</label>
-            <input id="container-input__end-month" type="number" placeholder="MM" min="0" max="12" required>
+            <label for="container-input__given-date-month">Month</label>
+            <input id="container-input__given-date-month" type="number" placeholder="MM" min="0" max="12" required>
           </section>
 
           <section>
-            <label for="container-input__end-year">Year</label>
-            <input id="container-input__end-year" type="number" placeholder="YYYY" min="1900" required>
+            <label for="container-input__given-date-year">Year</label>
+            <input id="container-input__given-date-year" type="number" placeholder="YYYY" min="1900" required>
           </section>
         </div>
-      </div>
-      
-      <button class="container__calc">Calculate</button>
+
+        <button class="container__calc">Calculate</button>
+      </form>
     </div>
   </body>
 </html>
