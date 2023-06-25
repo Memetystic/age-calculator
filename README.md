@@ -1,4 +1,5 @@
-# Age Calculator
-Solution to the [Frontend Mentor](https://www.frontendmentor.io/) age calculator app challenge
+# 🧮 | agecac
+Web app that calculates your chronological age
 
-[Preview here](https://memetystic.github.io/age-calculator/)
+# Preview
+You can preview the app [here](https://memetystic.github.io/age-calculator/)
